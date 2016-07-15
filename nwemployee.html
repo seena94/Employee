@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Employee details</title>
+  <link rel="stylesheet" type="text/css" href="employee.css">
+    <script type="text/javascript" src="nwemployee.js"></script>
+</head>
+<body onload="showTable()">
+  <header>
+    <div id="tfheader">
+      <form id="tfnewsearch" method="get">
+        <input type="text" id="tftextinput" onkeyup="CreateTable('enter');">
+      </form>
+      <div class="tfclear"></div>
+    </div>
+  </header>
+  <section id="full">
+    <div id="showData"></div>
+  </section>
+</body>
+</html>
